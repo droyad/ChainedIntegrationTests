@@ -1,4 +1,4 @@
-# Chained Integration Tests Proof of Concept
+# Chained Integration Tests Spike
 
 ## Context
 In this context, integration tests as tests that run test your system from the UI or API level down to the database and represent a use case. They are commonly also called end to end tests.
