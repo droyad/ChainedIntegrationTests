@@ -44,3 +44,6 @@ AddWidget -> RenameWidget
 ```
 
 The `AddThingimabob` test is setup to purposefully fail to show the use of the `Inconclusive` test outcome to indicate the that a dependency of `RenameThingimabob` has failed, not the test itself. This allows quick identification of where in the chain the test has failed (the red one).
+
+## Enhancement
+The test runner could be modified so that it only runs the leaf tests of the test dependency tree. The other tests would be run as a side effect of those tests. This will reduce the time take to run all the tests.
